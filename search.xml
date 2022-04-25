@@ -4,13 +4,76 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2022/04/16/hello-world/"/>
-      <url>/2022/04/16/hello-world/</url>
+      <title>心得体会</title>
+      <link href="/2022/04/22/harvest/"/>
+      <url>/2022/04/22/harvest/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token number">213123</span> <span class="token number">123</span> <span class="token number">1231</span> <span class="token number">23123</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token number">123123123</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Harvest </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>源码原理和测试结果</title>
+      <link href="/2022/04/22/code/"/>
+      <url>/2022/04/22/code/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>概述</title>
+      <link href="/2022/04/22/summary/"/>
+      <url>/2022/04/22/summary/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Summary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Action_Authentication</title>
+      <link href="/2022/04/21/action-authentication/"/>
+      <url>/2022/04/21/action-authentication/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2021年全国大学生信息安全竞赛作品报告"><a href="#2021年全国大学生信息安全竞赛作品报告" class="headerlink" title="2021年全国大学生信息安全竞赛作品报告"></a>2021年全国大学生信息安全竞赛作品报告</h1><p><strong>作品名称：</strong>                                          </p><p><strong>电子邮箱：</strong>                                         </p><p><strong>提交日期：</strong>                                          </p><p><strong>填写说明:</strong></p><ol><li>所有参赛项目必须为一个基本完整的设计。作品报告书旨在能够清晰准确地阐述（或图示）该参赛队的参赛项目（或方案）。</li><li>作品报告采用A4纸撰写。除标题外，所有内容必需为宋体、小四号字、1.5倍行距。</li><li>作品报告中各项目说明文字部分仅供参考，作品报告书撰写完毕后，请删除所有说明文字。(本页不删除)</li><li>作品报告模板里已经列的内容仅供参考，作者可以在此基础上增加内容或对文档结构进行微调。</li><li>为保证网评的公平、公正，作品报告中应避免出现作者所在学校、院系和指导教师等泄露身份的信息。</li></ol><p><strong>目     录</strong></p><p><a href="#_Toc33965493">摘要</a></p><p><a href="#_Toc33965494">第一章 作品概述</a></p><p><a href="#_Toc33965495">第二章 作品设计与实现</a></p><p><a href="#_Toc33965496">第三章 作品测试与分析</a></p><p><a href="#_Toc33965497">第四章 创新性说明</a></p><p><a href="#_Toc33965498">第五章 总结</a></p><p><a href="#_Toc33965499">参考文献</a></p><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>（请简要说明创作本作品之动机、功能、特性、创新处、实用性）</p><h2 id="第一章-作品概述"><a href="#第一章-作品概述" class="headerlink" title="第一章 作品概述"></a><strong>第一章 作品概述</strong></h2><p>（建议包括：背景分析、相关工作、特色描述及应用前景分析等）                                             </p><h2 id="第二章-作品设计与实现"><a href="#第二章-作品设计与实现" class="headerlink" title="第二章 作品设计与实现"></a>第二章 作品设计与实现</h2><p>（建议包括系统方案、实现原理、硬件框图、软件流程、功能、指标等）                               </p><h2 id="第三章-作品测试与分析"><a href="#第三章-作品测试与分析" class="headerlink" title="第三章 作品测试与分析"></a>第三章 作品测试与分析</h2><p>（建议包括测试方案、测试环境搭建、测试设备、测试数据、结果分析等）</p><h2 id="第四章-创新性说明"><a href="#第四章-创新性说明" class="headerlink" title="第四章 创新性说明"></a>第四章 创新性说明</h2><p>（本部分内容主要说明作品的创新性）</p><h2 id="第五章-总结"><a href="#第五章-总结" class="headerlink" title="第五章 总结"></a>第五章 总结</h2><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]李建华.网络空间威胁情报感知、共享与分析技术综述[J] .网络与信息安全学报，2016, Vol. 2(2): 16-29. （样例，参考国标GB/T7714-2015）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 汇总 </tag>
+            
+        </tags>
       
     </entry>
     
