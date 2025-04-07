@@ -599,21 +599,26 @@
             `;
         }
 
-        // 在页面加载时清除现有数据并只创建三个组
+        // 修改页面加载函数，保留之前的数据
         window.onload = function() {
-            // 清除现有数据
-            localStorage.removeItem('groups');
-            
-            // 重新初始化为三个组
-            groups = Array(3).fill().map((_,i) => ({
-                name: `第 ${i+1} 组`,
-                score: 0,
-                students: []
-            }));
-            
-            saveAndUpdate();
+            // 检查是否已有保存的组数据
+            if (!localStorage.getItem('groups')) {
+                // 只有在没有保存数据时才初始化为三个组
+                groups = Array(3).fill().map((_,i) => ({
+                    name: `第 ${i+1} 组`,
+                    score: 0,
+                    students: []
+                }));
+                
+                saveAndUpdate();
+            } else {
+                // 如果有保存的数据，从localStorage加载
+                groups = JSON.parse(localStorage.getItem('groups')) || [];
+                initGroups();
+            }
         };
 
+        // 初始化组显示
         initGroups();
     </script>
 </body>
